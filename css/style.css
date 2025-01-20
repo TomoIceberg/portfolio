@@ -1,0 +1,157 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: .8px;
+    color: #333;
+}
+
+a{
+    transition: opacity .3s;
+    text-decoration: none;
+    color: #1ca9e3;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border-style: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.pc-only{
+    display: block;
+}
+
+.sp-only{
+    display: none;
+}
+
+/*------------------------------
+
+------------------------------*/
+.section{
+    padding: 80px 0;
+}
+
+.inner{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 40px;
+} 
+
+/*------------------------------
+
+------------------------------*/
+.title{
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding: 10px;
+    letter-spacing: .05em;
+    color: #737d6d;
+}
+
+.lead{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+/*-------------------------------
+
+-------------------------------*/
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    transition: background-color .6s;
+}
+
+.header.active{
+    background-color: #737d6d;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.header-logo{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-right: 20px;
+    letter-spacing: .05em;
+}
+
+.header-logo a{
+    color: #333;
+}
+
+.header-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.header-nav-item a{
+    font-size: 13px;
+    padding: 5px 0;
+    letter-spacing: .1em;
+    color: #333;
+}
+
+.header-nav-item a:hover{
+    opacity: .8;
+}
+
+/*--------------------------------
+
+  ---------------------------------*/
+  .profile {
+    padding: 50px 0;
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #737d6d;
+  }
+  
+  .profile-text {
+    max-width: 500px;
+    padding: 10px;
+  }
+
+  /*--------------------------------
+    Works
+  ---------------------------------*/
+  .works-list{
+    padding: 10px;
+  }
+  ul{
+    display: flex;
+  }
+
+  /*--------------------------------
+ Skill
+---------------------------------*/
+.skill-list{
+    padding: 10px;
+}
+
+ /*--------------------------------
+ interest
+---------------------------------*/
