@@ -71,6 +71,7 @@ ul,li{
     z-index: 1;
     width: 100%;
     transition: background-color .6s;
+    background-color: #45928c;
 }
 
 .header.active{
@@ -93,7 +94,7 @@ ul,li{
 }
 
 .header-logo a{
-    color: #333;
+    color: #fff;
 }
 
 .header-nav-list{
@@ -109,7 +110,7 @@ ul,li{
     font-size: 13px;
     padding: 5px 0;
     letter-spacing: .1em;
-    color: #333;
+    color: #fff;
 }
 
 .header-nav-item a:hover{
